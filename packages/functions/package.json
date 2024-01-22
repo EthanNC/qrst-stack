@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@tanstack/react-router-server": "^1.4.3",
-    "@trpc/server": "^10.45.0",
+    "@trpc/server": "11.0.0-next-beta.228",
     "zod": "^3.22.4"
   }
 }

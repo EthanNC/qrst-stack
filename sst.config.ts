@@ -1,7 +1,7 @@
 import { SSTConfig } from "sst";
 import { Database } from "./stacks/Database";
 import { Api } from "./stacks/Api";
-import { SSRFunction } from "./stacks/Function";
+
 import { Web } from "./stacks/Web";
 
 export default {
@@ -12,6 +12,6 @@ export default {
     };
   },
   stacks(app) {
-    app.stack(Database).stack(Api).stack(SSRFunction).stack(Web);
+    app.stack(Database).stack(Api).stack(Web);
   },
 } satisfies SSTConfig;

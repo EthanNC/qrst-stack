@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 importers:
 
   .:
@@ -46,8 +42,8 @@ importers:
         specifier: ^1.4.3
         version: 1.4.3(react-dom@18.2.0)(react@18.2.0)
       '@trpc/server':
-        specifier: ^10.45.0
-        version: 10.45.0
+        specifier: 11.0.0-next-beta.228
+        version: 11.0.0-next-beta.228
       zod:
         specifier: ^3.22.4
         version: 3.22.4
@@ -3312,12 +3308,12 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@trpc/server@10.45.0:
-    resolution: {integrity: sha512-2Fwzv6nqpE0Ie/G7PeS0EVR89zLm+c1Mw7T+RAGtU807j4oaUx0zGkBXTu5u9AI+j+BYNN2GZxJcuDTAecbr1A==}
-    dev: false
-
   /@trpc/server@11.0.0-next-beta.222:
     resolution: {integrity: sha512-+JThZHMOrHhuJZyV42Jbzv4evGU5DXcK3hyzmFYGoaAfO6l4AJ7L6jnPdp0wDy9p+CcoppQaZ3+FwZc0gxtd0g==}
+    dev: false
+
+  /@trpc/server@11.0.0-next-beta.228:
+    resolution: {integrity: sha512-8pRT1Ixrh8310KlPLLwlfEmfWXL9yrJK+mz9jFgvsiEtazR2N7rUFV8SoG2SWGxLkTaPc03o4k1JSf83XDwWRw==}
     dev: false
 
   /@trpc/server@9.16.0:
@@ -7695,3 +7691,7 @@ packages:
 
   /zod@3.22.4:
     resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

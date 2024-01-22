@@ -1,6 +1,6 @@
 import { FileRoute, Outlet } from "@tanstack/react-router";
 
-export const Route = new FileRoute("/todos").createRoute({
+export const Route = new FileRoute("/todo").createRoute({
   component: TodosRoute,
 });
 

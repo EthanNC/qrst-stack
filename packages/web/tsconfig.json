@@ -19,7 +19,12 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
+
+    "paths": {
+      "@/*": ["./src/*"],
+      "@qrst-stack/functions/*": ["../functions/src/*"],
+    },
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
-}
+} 
